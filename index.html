@@ -4,10 +4,396 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>GUEST HOUSE</title>
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img class="logo__img" src="img/Combined-Shape.svg" alt=""></div>
+
+            <!-- <div class="navigation">
+                <div class="burger_menu " id="burger_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> -->
+            <nav class="menu">
+                <div class="navigation">
+                <div class="burger_menu " id="burger_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul>
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Our history</a></li>
+                    
+                </ul>
+            </nav>
+            <button class="booking" id="booking">
+                <a href="#">Book now</a>
+            </button>
+        </header>
+<!-- -----------------------------------------------Popap------------------------------------------------------------------- -->
+
+        <div class="popup" id="popup" >
+            <div class="popup_wrap">
+                <h2>Booking Form</h2>
+                <form action="" class="popup_form">
+                    <label for="name">Enter Full Name</label>
+                    <input type="text" id="name">
+                    <label for="second_name">Enter Phone Namber</label>
+                    <input type="tel" id="second_name">
+                    <label for="password">Arrival Date</label>
+                    <input type="date" id="password">
+                    <label for="password">Departure Date</label>
+                    <input type="date" id="password">
+                    <input type="submit" content="Send" value="Booking">
+                </form>
+                <div class="popup_close_btn">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+<!-- -------------------------------Titlepage-------------------------------------------------------------------------------------------- -->
+        <section class="titlepage">
+            <div class="titlepage__logo"><img src="img/Combined-Shape.svg" alt=""></div>
+            <div class="titlepage__concept"><p>Experience the perfect combination of modern <br> housing & natural scenery.</p></div>
+            <div class="titlepage__location"><p>Located in Lofoten, Norway</p></div>
+
+             <div class="titlepage__icon">
+            <div class="titlepage__oval"><img src="img/Vector.svg" alt=""></div>
+            <div class="titlepage__line"><img src="img/Line 1.svg" alt=""></div>
+            </div>
+
+        </section>
+<!-- ----------------------------------------------About us-------------------------------------------------------------------------------------- -->
+        
+        <section class="aboutus">
+            <div class="decorelement"><img src="img/Rectangle.svg" alt=""></div>
+            <div class="description">
+                 <div class="description__left"><p>The Guest House is the perfect weekend get-away <br>  housing. Located in the Norwegian archipelago,<br> Lofoten, it's a great escape from the hustle and  <br> bustle of the city. Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Nullam scelerisque <br> aliquam odio et faucibus. Nulla rhoncus feugiat <br> eros quis consectetur. Morbi neque ex, <br> condimentum dapibus congue et, <br> vulputate ut ligula.</p></div> 
+                 <div class="description__right">
+                     <p>Below you'll find information about the <br> accommodation and what's included in the price. <br> Don't hesitate to reach out to us vi the contact page <br> if you have any questions around your stay.</p>
+                     <button class="booking" id="bookin">
+                        <a href="#">Book now</a>
+                    </button>
+                 </div>  
+            </div>
+
+        </section>
+ <!----------------------------------------slogan----------------------------------------------------------------------------------------->
+        <section class="slogan">
+            <div class="decorelement"><img src="img/Rectangle.svg" alt=""></div>
+            <div class="slogan_paragraph"><p>The Guest House is the <br> perfect weekend <br> getaway cabin.</p>
+            </div>
+        </section>
+<!-- -------------------------------------------photo-------------------------------------------------------------------------------------->
+        <section class="photo"></section>
+   <!-- ---------------------------------------------AboutHouse--------------------------------------------------------------------------      -->
+        <section class="abouthouse">
+            
+            <div class="smallheader">
+                <div class="decorelement"><img src="img/Rectangle.svg" alt=""></div>  
+                <div class="header_paragraph">
+                    <h2>Sleeping arrangements.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis <br> consectetur.</p>
+                </div> 
+            </div>
+
+        <div class="abouthouse_information">
+
+            <div class="abouthouse_information__items">
+                <div class="abouthouse_icon"><img src="img/bed.svg" alt=""></div>
+                <h3>Beds</h3>
+                <p>The cabin is equipped with  12 beds, 4 of which <br> are in bunk. The rent includes linens for all beds.</p>
+            </div>
+
+            <div class="abouthouse_information__items">
+                <div class="abouthouse_icon"><img src="img/bedroom.svg" alt=""></div>
+                <h3>Bedrooms</h3>
+                <p>Spread out over two floors, the cabin offers 4 <br> bedrooms. Ranging from 2 to 4 beds per room..</p>
+            </div>
+
+            <div class="abouthouse_information__items">
+                <div class="abouthouse_icon"><img src="img/bathroomsvg.svg" alt=""></div>
+                <h3>Bathrooms</h3>
+                <p>The cabin has three bathrooms, all equipped <br> with showers and one with a bath tub,</p>
+            </div>
+        </div>
+
+       
+        </section>
+
+         <!-- ------------------------------------AboutRest------------------------------------------------------------------------------------->
+        <section class="aboutrest">
+
+
+            <div class="smallheader_left">
+                <div class="aboutrest_decorelement"><img src="img/Rectangle.svg" alt=""></div>  
+                <div class="header_paragraph">
+                    <h2>The perfect escape.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis <br> consectetur.</p>
+                </div> 
+            </div>
+
+            <div class="aboutrest_information">
+
+               <div class="aboutrest_information__leftitems">
+                <span class="kitchen">Modern Kitchen Appliances <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <span class="tree">Outdoor Paths <br>Nulla rhoncus feugiat eros quis consectetur.</span>
+                <span class="coffee">Coffee Maker <br>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut  faucibus orci tincidunt.</span>
+                <span class="natural">Natural Scenery <br>Cras commodo consequat orci, in convallis risus egestas non.</span>
+               </div>
+               <div class="aboutrest_information__rigthitems">
+                <span class="conditioner">Air Conditioner <br>Nullam scelerisque aliquam odio et faucibus.</span>
+                <span class="storage">Storage Solutions <br>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula..</span>
+                <span class="glass">Cutlery Selection <br>Duis tristique sed lorem a vestibulum. </span>
+                <span class="eating">Take-away Options <br>Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</span> 
+               </div> 
+            </div>
+        </section>
+        <!-- -----------------------------------------------Gallery----------------------------------------------------------------- -->
+    <section class="gallery_container">
+          
+
+            <div class="smallheader">
+                <div class="decorelement"><img src="img/Rectangle.svg" alt=""></div>  
+                <div class="header_paragraph">
+                    <h2>Past guests.</h2>
+                    <p>Don't take our word for it! Have a look at what our previous guests say <br> about their stay at the Guest House.</p>
+                </div> 
+            </div>
+        
+        <section class="carousel">
+
+            <div class="multiple-items">
+                <div class="carousel_item">
+                    <div class="carousel_star">
+                        <img src="img/star1.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                        <img src="img/star1.svg" alt="">
+                    </div>
+
+                    <h3>We had an amazing stay at the Guest House!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                    <span>Nate Davidsson</span>
+                </div>
+
+                
+                    <div class="carousel_item">
+                        <div class="carousel_star">
+                            <img src="img/star1.svg" alt="">
+                            <img src="img/star1.svg" alt="">
+                            <img src="img/star1.svg" alt="">
+                            <img src="img/star1.svg" alt="">
+                            <img src="img/star2.svg" alt="">
+                        </div>
+    
+                        <h3>We had an amazing stay at the Guest House!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                        <span>Laura Paulie</span>
+                    </div>
+
+                    
+                        <div class="carousel_item">
+                            <div class="carousel_star">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                            </div>
+        
+                            <h3>We had an amazing stay at the Guest House!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                            <span>Greg Todd</span>
+                        </div>
+                        <div class="carousel_item">
+                            <div class="carousel_star">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                                <img src="img/star1.svg" alt="">
+                            </div>
+        
+                            <h3>We had an amazing stay at the Guest House!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                            <span>Laura Todd</span>
+                        </div>
+        
+                        
+                            <div class="carousel_item">
+                                <div class="carousel_star">
+                                    <img src="img/star1.svg" alt="">
+                                    <img src="img/star1.svg" alt="">
+                                    <img src="img/star1.svg" alt="">
+                                    <img src="img/star1.svg" alt="">
+                                    <img src="img/star2.svg" alt="">
+                                </div>
+            
+                                <h3>We had an amazing stay at the Guest House!</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                                <span>Laura Paulie</span>
+                            </div>
+        
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_star">
+                                        <img src="img/star1.svg" alt="">
+                                        <img src="img/star1.svg" alt="">
+                                        <img src="img/star1.svg" alt="">
+                                        <img src="img/star1.svg" alt="">
+                                        <img src="img/star1.svg" alt="">
+                                    </div>
+                
+                                    <h3>We had an amazing stay at the Guest House!</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc <br> ut sem vitae risus tristique posuere.</p>
+                                    <span>Greg Todd</span>
+                                </div>
+        
+
+                        </div>
+        </section>
+
+    </section>
+
+
+
+    <!-- --------------------------------------------photo--------------------------------------------------------------- -->
+    <section class="phototwo"></section>
+
+    <!-- -----------------------------------------Come together.---------------------------------------------------------------- -->
+
+    <section class="come_together">
+        
+        <div class="smallheader_two">
+            <div class="aboutrest_decorelement"><img src="img/Rectangle.svg" alt=""></div>  
+            <div class="header_paragraph">
+                <h2>Come together.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et faucibus. </p>
+            </div> 
+        </div>
+
+        <div class="together">
+        <div class="come_together__item">
+            <span class="signal">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</span>
+            <span class="ball">Nulla rhoncus feugiat eros <br> quis consectetur.</span>
+        </div>
+        
+        <div class="come_together__item">
+            <span class="bread">Nullam scelerisque aliquam <br> odio et faucibus.</span>
+            <span class="fork">Morbi neque ex, <br> condimentum.</span>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- --------------------------------repeat-------------------------------------------------------------------------------------- -->
+    <section class="repeat">
+
+        <div class="smallheader">
+            <div class="decorelement"><img src="img/Rectangle.svg" alt=""></div>  
+            <div class="header_paragraph">
+                <h2>We're already booked up for the <br> spring — hurry up & secure your <br> stay for the summer.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et faucibus.</p>
+            </div> 
+        </div>
+
+        <div class="repeat_buttons">
+            <button class="contact">
+                <a href="#">Contact</a>
+            </button>
+            <button class="repeat_booking" id="book">
+                <a href="#">Book now</a>
+            </button>
+            
+        </div>
+
+</section>
+
+<!-- -----------------------------------------------Footer------------------------------------------------------------------------------- -->
+
+<footer>
+    <div class="our_contact">
+        <div class="pages">
+            <h4>Pages</h4>
+            <div><a href="#">Start</a></div>
+            <div><a href="#">Contact</a></div>
+            <div><a href="#">Our history</a></div>
+            <div><a href="#">Licenses</a></div>
+            <div><a href="#">Instructions</a></div>
+            <div><a href="#">Style guide</a></div>
+        </div>
+
+        <div class="media">
+            <h4>Social Media</h4>
+            <div class="media_icon">
+                <div><img src="img/tic.svg" alt=""></div>
+            <div><img src="img/face.svg" alt=""></div>
+            <div><img src="img/insta.svg" alt=""></div>
+            </div>
+            
+        </div>
+
+        <div class="newsletter">
+            <h4>Newsletter</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius <br> enim in eros elementum tristique.</p>
+            <div>
+                <form>
+            <input type="text" placeholder="Email" value="Email">
+            <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+</div>
+
+    <div class="address">
+        <div class="address_logo"> <img src="img/Combined-Shape.svg" alt=""></div>
+        <p>© Guest House, LLC. All rights reserved. Powered by Webflow</p>
+        <p>+47 (0) 702 88 12 34 — example@webflow.io — Klubbvika 12, 8310 Kabelvag, Norway</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        <script src="./scripts/jquery-3.6.0.min (1).js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./scripts/main.js"></script>
+        <script src="./scripts/script.js"></script> 
     
 </body>
 </html>
