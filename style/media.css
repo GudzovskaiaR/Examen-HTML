@@ -1,0 +1,217 @@
+@media (max-width: 1300px){
+	.slogan_paragraph p{
+		font-size: 60px;
+		text-align: center;
+
+	}
+	.slogan{
+		padding-right: 20px;
+	}
+	.photo{
+		max-width: 100%;
+		background-size: cover;
+	}
+	.abouthouse_information__items p,  h3{
+		text-align: left;
+	}
+	
+	.gallery_container{
+		display: none;
+	}
+	.come_together{
+		flex-direction: column;
+		justify-content: none;
+	}
+	.come_together__item {
+		
+		position: relative;
+		margin-left: 136px;	
+	}
+	.together{
+		flex-direction: column;
+		margin-left: 110px;
+	}
+	
+	
+	.our_contact{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pages, .media, .newsletter{
+		margin: 0 auto;
+		margin-bottom: 10px;
+		
+		font-size: 12px;
+	}
+	.pages{
+		margin-left: 565px;
+	}
+
+	.address{
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+
+	}
+/* ------------------------------------800------------------------------ */
+	@media (max-width: 800px){
+        .menu ul li{
+            display: block;
+        }
+        .navigation{
+            flex-direction: row-reverse;
+        }
+        .menu{
+            position: fixed;
+            left: -50vw;
+            top:-30px;
+            width: 50vw;
+            height: 100vh;
+            border-radius: 0 20px 20px 0;
+            background: #52503B;
+            z-index: 100;
+			transition: .5s;
+        }
+        .menu ul li a{
+            color: #fff;
+            padding: 15px 30px;
+            display: block;
+        }
+        .menu ul li a:hover{
+            color: #E08631;
+        }
+        .menu ul{
+            margin-top: 70px;
+        }
+        .burger_menu{
+			margin-left: -90px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			cursor: pointer;
+			transition: .5s;
+
+        }
+        .burger_menu span{
+            display: block;
+            background: #E08631;
+            width: 35px;
+            height: 4px;
+			margin: 3px 0;
+			border-radius: 5px;
+			transition: .5s;
+			
+        }
+
+		.burger_menu_active span{
+			margin: 0;
+			transition: .5s;
+		}
+		.burger_menu_active span:nth-child(2){
+			display: none;
+
+		}
+		.burger_menu_active span:nth-child(1){
+			transform: rotate(-45deg);
+			transition: .5s;
+
+		}
+		.burger_menu_active span:nth-child(3){
+			transform: rotate( 45deg);
+			margin-top: -4px;
+			transition: .5s;
+
+		}
+		.active_menu_all{
+			left:0;
+		}
+
+		/* ----------------------------------------------------------------------------------------- */
+		header{
+			padding-right: 30px;
+		}
+		.logo{
+			margin-left: -20px;
+		}
+
+		.description button{
+			margin-bottom: 30px;
+		}
+		.titlepage{
+			padding-right: 30px;
+			height: 100%;
+			padding-bottom: 50px;
+		}
+		.photo{
+			
+		}
+		.slogan{
+			font-size: 70px;
+		}
+		.abouthouse{
+			padding-right: 10px;
+		}
+		.smallheader h2{
+			font-size: 25px;
+			text-align: left;
+		}
+		.smallheader p{
+			font-size: 18px;
+			text-align: left;
+		}
+		.smallheader_left{
+			margin-left: 60px;
+			margin-top: 30px;
+		}
+		.aboutrest{
+			padding-right: 30px;
+		}
+		.aboutrest_information{
+			margin-left: -75px;
+		}
+		
+		.smallheader_two{
+			margin-left: 60px;
+			margin-top: 30px;
+
+		}
+		.come_together{
+			padding-right: 10px;
+		}
+		.come_together__item{
+			margin-left: -50px;
+		}
+		.repeat{
+			padding-right: 30px;
+		}
+		.our_contact{
+			margin-top: 20px;
+			
+		}
+		.pages {
+			margin-left: 10px;
+				
+		}
+		.media{
+			margin-left: 10px;
+		}
+		.newsletter{
+			margin-left: 10px;
+		}
+		.newsletter input{
+			width: 400px;
+
+		}
+		.address_logo{
+			margin-top: 20px;
+			margin-left:-50px;
+		}
+		.address p{
+			text-align: left;
+			margin-left: 10px;
+		}
+
+
+		
+	}
+	
