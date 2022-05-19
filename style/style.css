@@ -51,74 +51,6 @@ body{
 	flex-direction: column;
 	min-height: 100%;
 }
-
-/* ----------------------------------------------------media--------------------------------------------------------------- */
-@media (max-width: 1300px){
-	.slogan_paragraph p{
-		font-size: 60px;
-		text-align: center;
-
-	}
-	.slogan{
-		padding-right: 20px;
-	}
-	.photo{
-		max-width: 100%;
-		background-size: cover;
-	}
-	.abouthouse_information__items p,  h3{
-		text-align: left;
-	}
-	
-	.gallery_container{
-		display: none;
-	}
-	.come_together{
-		flex-direction: column;
-		justify-content: none;
-	}
-	.come_together__item {
-		
-		position: relative;
-		margin-left: 136px;	
-	}
-	.together{
-		flex-direction: column;
-		margin-left: 110px;
-	}
-	footer{
-			
-	}
-	
-	.our_contact{
-		flex-direction: column;
-		justify-content: center;
-	}
-	.pages, .media, .newsletter{
-		margin: 0 auto;
-		margin-bottom: 10px;
-		
-		font-size: 12px;
-	}
-	.address{
-		margin-bottom: 20px;
-		font-size: 12px;
-	}
-
-	}
-
-	@media (max-width: 800px){
-		
-	}
-	
-	
-
-
-
-
-
-
-
 /* --------------------------------------Header----------------------------------------------------------------------------------------- */
 header{
 	position: fixed;
@@ -134,6 +66,10 @@ header{
 	margin-left: 120px;
 	margin-top: 18px;
 }
+.navigation{
+	display: flex;
+}
+
 .menu{
 	
 	margin: 30px auto;
@@ -222,7 +158,7 @@ header{
 .aboutus{
 	position: relative;
 	width: 100%;
-	height: 50vh;
+	height: 100%;
 	background-color: #FAF8F0;
 	
 	
@@ -237,23 +173,31 @@ header{
 	
 }
 .description{
-	width: 760px;
+	width: 100%;
 	display:flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	margin-top: 33px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #333333;
+	justify-content: center;
+	
 	
 	
 }
 .description p{
 	display: block;
+	margin-bottom: 20px;
+
+
+	
 }
 
 .description__left{
 	display: block;
-	margin-right: 40px;
+	
+
 }
 .description button{
 	background-color: #52503B;	
@@ -276,8 +220,9 @@ header{
 /* ----------------------------------------------------slogan----------------------------------------------------------------- */
 .slogan{
 	width: 100%;
-	height: 568px;
+	height: 100%px;
 	background-color: #FFFFFF;
+	padding-bottom: 30px;
 }
 .slogan_paragraph{
 	text-align: center;
@@ -293,13 +238,15 @@ header{
 	height: 70vh;
 	background-image: url("../img/photo1.png");
 	background-size: cover;
+	
 }
 /* -------------------------------------------------------AboutHouse------------------------------------------------------------------------- */
 .abouthouse{
 	width: 100%;
-	height: 530px;
+	height: 100%;
 	color: #52503B;
 	background-color: #FAF8F0;
+	padding-bottom: 30px;
 }
 
 .smallheader{
@@ -318,6 +265,7 @@ header{
 }
 .abouthouse_information{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 30px;
 	
@@ -681,6 +629,7 @@ footer{
 	/* font-size: 14px; */
 	letter-spacing: 2px;
 }
+
 
 
 .pages a{
